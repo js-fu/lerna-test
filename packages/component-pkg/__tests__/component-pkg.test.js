@@ -2,6 +2,6 @@
 
 const componentPkg = require('..');
 
-describe('component-pkg', () => {
+describe('@js-fu/component-pkg', () => {
     it('needs tests');
 });

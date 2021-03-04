@@ -2,6 +2,6 @@
 
 const cliPkg = require('..');
 
-describe('cli-pkg', () => {
+describe('@js-fu/cli-pkg', () => {
     it('needs tests');
 });

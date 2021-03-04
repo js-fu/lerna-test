@@ -1,5 +1,5 @@
 {
-  "name": "cli-pkg",
+  "name": "@js-fu/cli-pkg",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "jiansheng.fu <jiansheng.fu@qiaofang.cn>",
@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/js-fu/lerna-test/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
