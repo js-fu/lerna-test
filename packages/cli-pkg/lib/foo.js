@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports["default"]=foo;function foo(){console.log("foo")}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9mb28uanMiXSwibmFtZXMiOlsiZm9vIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6IjZGQUFlLFFBQVNBLENBQUFBLEdBQVQsRUFBZSxDQUM1QkMsT0FBTyxDQUFDQyxHQUFSLENBQVksS0FBWixDQUNEIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gZm9vKCkge1xuICBjb25zb2xlLmxvZyhcImZvb1wiKTtcbn1cbiJdfQ==

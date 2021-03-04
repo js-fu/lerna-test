@@ -6,11 +6,15 @@
   "homepage": "https://github.com/js-fu/lerna-test/tree/main/packages/cli-pkg#readme",
   "license": "ISC",
   "main": "lib/index.js",
+  "bin": {
+    "js-fu-cli": "./bin/js-fu-cli"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
+    "bin",
     "lib"
   ],
   "repository": {
@@ -18,12 +22,19 @@
     "url": "git+https://github.com/js-fu/lerna-test.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "babel src -d lib"
   },
   "bugs": {
     "url": "https://github.com/js-fu/lerna-test/issues"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-transform-runtime": "^7.13.9",
+    "@babel/preset-env": "^7.13.9"
+  },
+  "dependencies": {}
 }
