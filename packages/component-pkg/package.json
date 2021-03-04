@@ -1,0 +1,26 @@
+{
+  "name": "component-pkg",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jiansheng.fu <jiansheng.fu@qiaofang.cn>",
+  "homepage": "https://github.com/js-fu/lerna-test/tree/main/packages/component-pkg#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-fu/lerna-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/js-fu/lerna-test/issues"
+  }
+}
