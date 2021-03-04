@@ -1,0 +1,145 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules/.bin/lerna' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/fujiansheng/Documents/github/lerna-test
+3 info versioning independent
+4 verbose session b36a43e923d4d814
+5 verbose user-agent lerna/4.0.0/node@v10.23.0+x64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+7 verbose rootPath /Users/fujiansheng/Documents/github/lerna-test
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch main
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "@js-fu/cli-pkg@1.0.2-2-g84eb587" => {"lastTagName":"@js-fu/cli-pkg@1.0.2","lastVersion":"1.0.2","refCount":"2","sha":"84eb587","isDirty":false}
+18 info Looking for changed packages since @js-fu/cli-pkg@1.0.2
+19 silly checking diff packages/cli-pkg-demo
+20 silly found diff in packages/cli-pkg-demo/README.md
+20 silly found diff in packages/cli-pkg-demo/__tests__/cli-pkg-demo.test.js
+20 silly found diff in packages/cli-pkg-demo/package-lock.json
+20 silly found diff in packages/cli-pkg-demo/package.json
+20 silly found diff in packages/cli-pkg-demo/src/index.js
+21 verbose filtered diff [ 'packages/cli-pkg-demo/README.md',
+21 verbose filtered diff   'packages/cli-pkg-demo/__tests__/cli-pkg-demo.test.js',
+21 verbose filtered diff   'packages/cli-pkg-demo/package-lock.json',
+21 verbose filtered diff   'packages/cli-pkg-demo/package.json',
+21 verbose filtered diff   'packages/cli-pkg-demo/src/index.js' ]
+22 silly checking diff packages/cli-pkg
+23 silly found diff in packages/cli-pkg/.babelrc.json
+23 silly found diff in packages/cli-pkg/bin/js-fu-cli.js
+23 silly found diff in packages/cli-pkg/lib/foo.js
+23 silly found diff in packages/cli-pkg/lib/index.js
+23 silly found diff in packages/cli-pkg/package-lock.json
+23 silly found diff in packages/cli-pkg/package.json
+23 silly found diff in packages/cli-pkg/src/foo.js
+23 silly found diff in packages/cli-pkg/src/index.js
+24 verbose filtered diff [ 'packages/cli-pkg/.babelrc.json',
+24 verbose filtered diff   'packages/cli-pkg/bin/js-fu-cli.js',
+24 verbose filtered diff   'packages/cli-pkg/lib/foo.js',
+24 verbose filtered diff   'packages/cli-pkg/lib/index.js',
+24 verbose filtered diff   'packages/cli-pkg/package-lock.json',
+24 verbose filtered diff   'packages/cli-pkg/package.json',
+24 verbose filtered diff   'packages/cli-pkg/src/foo.js',
+24 verbose filtered diff   'packages/cli-pkg/src/index.js' ]
+25 silly checking diff packages/component-pkg
+26 silly no diff found in @js-fu/component-pkg
+27 verbose updated cli-pkg-demo
+28 verbose updated @js-fu/cli-pkg
+29 verbose git-describe undefined => "@js-fu/cli-pkg@1.0.2-2-g84eb587"
+30 silly git-describe parsed => {"lastTagName":"@js-fu/cli-pkg@1.0.2","lastVersion":"1.0.2","refCount":"2","sha":"84eb587","isDirty":false}
+31 info execute Skipping releases
+32 silly lifecycle No script for "preversion" in "lerna-test", continuing
+33 silly lifecycle No script for "preversion" in "@js-fu/cli-pkg", continuing
+34 silly lifecycle No script for "version" in "@js-fu/cli-pkg", continuing
+35 silly lifecycle No script for "preversion" in "cli-pkg-demo", continuing
+36 silly lifecycle No script for "version" in "cli-pkg-demo", continuing
+37 silly lifecycle No script for "version" in "lerna-test", continuing
+38 silly gitAdd [ 'packages/cli-pkg/package.json',
+38 silly gitAdd   'packages/cli-pkg/package-lock.json',
+38 silly gitAdd   'packages/cli-pkg-demo/package.json',
+38 silly gitAdd   'packages/cli-pkg-demo/package-lock.json' ]
+39 silly gitCommit Publish
+39 silly gitCommit
+39 silly gitCommit  - cli-pkg-demo@1.0.1
+39 silly gitCommit  - @js-fu/cli-pkg@1.0.3
+40 verbose git [ 'commit',
+40 verbose git   '-F',
+40 verbose git   '/private/var/folders/4j/6m_bdv9s467b_rtmvlrz_hsw0000gn/T/3105d133-370a-4ac0-9088-60cf1a27b9fc/lerna-commit.txt' ]
+41 silly gitTag cli-pkg-demo@1.0.1
+42 verbose git [ 'tag', 'cli-pkg-demo@1.0.1', '-m', 'cli-pkg-demo@1.0.1' ]
+43 silly gitTag @js-fu/cli-pkg@1.0.3
+44 verbose git [ 'tag', '@js-fu/cli-pkg@1.0.3', '-m', '@js-fu/cli-pkg@1.0.3' ]
+45 silly lifecycle No script for "postversion" in "cli-pkg-demo", continuing
+46 silly lifecycle No script for "postversion" in "@js-fu/cli-pkg", continuing
+47 silly lifecycle No script for "postversion" in "lerna-test", continuing
+48 info git Pushing tags...
+49 silly gitPush origin main
+50 info publish Publishing packages to npm...
+51 info Verifying npm credentials
+52 verbose Retrieving npm user profile
+53 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1058ms
+54 silly npm profile get received {"tfa":{"pending":false,"mode":"auth-and-writes"},"name":"js-fu","email":"15221448373@163.com","email_verified":true,"created":"2017-02-23T12:00:51.281Z","updated":"2021-03-04T04:31:27.074Z","cidr_whitelist":null,"fullname":"fujiansheng","homepage":"","twitter":"","github":"js-fu"}
+55 silly get npm username received {"username":"js-fu","tfa":{"pending":false,"mode":"auth-and-writes"},"name":"js-fu","email":"15221448373@163.com","email_verified":true,"created":"2017-02-23T12:00:51.281Z","updated":"2021-03-04T04:31:27.074Z","cidr_whitelist":null,"fullname":"fujiansheng","homepage":"","twitter":"","github":"js-fu"}
+56 silly verifyNpmPackageAccess
+57 http fetch GET 200 https://registry.npmjs.org/-/org/js-fu/package?format=cli 876ms
+58 info Checking two-factor auth mode
+59 verbose Retrieving npm user profile
+60 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 477ms
+61 silly npm profile get received {"tfa":{"pending":false,"mode":"auth-and-writes"},"name":"js-fu","email":"15221448373@163.com","email_verified":true,"created":"2017-02-23T12:00:51.281Z","updated":"2021-03-04T04:31:27.074Z","cidr_whitelist":null,"fullname":"fujiansheng","homepage":"","twitter":"","github":"js-fu"}
+62 silly 2FA { pending: false, mode: 'auth-and-writes' }
+63 warn ENOLICENSE Package @js-fu/cli-pkg is missing a license.
+63 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+63 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+64 silly getCurrentSHA
+65 verbose getCurrentSHA 9107d2bc4bc1e0da34c1625b06ee8b12139a879f
+66 silly lifecycle No script for "prepublish" in "lerna-test", continuing
+67 silly lifecycle No script for "prepare" in "lerna-test", continuing
+68 silly lifecycle No script for "prepublishOnly" in "lerna-test", continuing
+69 silly lifecycle No script for "prepack" in "lerna-test", continuing
+70 verbose pack-directory packages/cli-pkg
+71 silly lifecycle No script for "prepublish" in "@js-fu/cli-pkg", continuing
+72 silly lifecycle No script for "prepare" in "@js-fu/cli-pkg", continuing
+73 silly lifecycle No script for "prepublishOnly" in "@js-fu/cli-pkg", continuing
+74 silly lifecycle No script for "prepack" in "@js-fu/cli-pkg", continuing
+75 silly lifecycle No script for "postpack" in "@js-fu/cli-pkg", continuing
+76 verbose packed packages/cli-pkg
+77 silly lifecycle No script for "postpack" in "lerna-test", continuing
+78 verbose publish @js-fu/cli-pkg
+79 http fetch PUT 401 https://registry.npmjs.org/@js-fu%2fcli-pkg 1214ms
+80 silly FetchError: request to https://registry.npmjs.org/@js-fu%2fcli-pkg failed, reason: read ECONNRESET
+80 silly     at ClientRequest.req.on.er (/Users/fujiansheng/Documents/github/lerna-test/node_modules/minipass-fetch/lib/index.js:97:14)
+80 silly     at ClientRequest.emit (events.js:198:13)
+80 silly     at TLSSocket.socketErrorListener (_http_client.js:401:9)
+80 silly     at TLSSocket.emit (events.js:198:13)
+80 silly     at emitErrorNT (internal/streams/destroy.js:91:8)
+80 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+80 silly     at process._tickCallback (internal/process/next_tick.js:63:19)
+80 silly  { FetchError: request to https://registry.npmjs.org/@js-fu%2fcli-pkg failed, reason: read ECONNRESET
+80 silly     at ClientRequest.req.on.er (/Users/fujiansheng/Documents/github/lerna-test/node_modules/minipass-fetch/lib/index.js:97:14)
+80 silly     at ClientRequest.emit (events.js:198:13)
+80 silly     at TLSSocket.socketErrorListener (_http_client.js:401:9)
+80 silly     at TLSSocket.emit (events.js:198:13)
+80 silly     at emitErrorNT (internal/streams/destroy.js:91:8)
+80 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+80 silly     at process._tickCallback (internal/process/next_tick.js:63:19)
+80 silly   stack:
+80 silly    'FetchError: request to https://registry.npmjs.org/@js-fu%2fcli-pkg failed, reason: read ECONNRESET\n    at ClientRequest.req.on.er (/Users/fujiansheng/Documents/github/lerna-test/node_modules/minipass-fetch/lib/index.js:97:14)\n    at ClientRequest.emit (events.js:198:13)\n    at TLSSocket.socketErrorListener (_http_client.js:401:9)\n    at TLSSocket.emit (events.js:198:13)\n    at emitErrorNT (internal/streams/destroy.js:91:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)\n    at process._tickCallback (internal/process/next_tick.js:63:19)',
+80 silly   code: 'ECONNRESET',
+80 silly   errno: 'ECONNRESET',
+80 silly   syscall: 'read',
+80 silly   type: 'system' }
+81 error ECONNRESET request to https://registry.npmjs.org/@js-fu%2fcli-pkg failed, reason: read ECONNRESET
+82 error FetchError: request to https://registry.npmjs.org/@js-fu%2fcli-pkg failed, reason: read ECONNRESET
+82 error     at ClientRequest.req.on.er (/Users/fujiansheng/Documents/github/lerna-test/node_modules/minipass-fetch/lib/index.js:97:14)
+82 error     at ClientRequest.emit (events.js:198:13)
+82 error     at TLSSocket.socketErrorListener (_http_client.js:401:9)
+82 error     at TLSSocket.emit (events.js:198:13)
+82 error     at emitErrorNT (internal/streams/destroy.js:91:8)
+82 error     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
