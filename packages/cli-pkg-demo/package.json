@@ -1,6 +1,6 @@
 {
   "name": "cli-pkg-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "> TODO: description",
   "author": "jiansheng.fu <jiansheng.fu@qiaofang.cn>",
@@ -24,8 +24,7 @@
   "bugs": {
     "url": "https://github.com/js-fu/lerna-test/issues"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@js-fu/cli-pkg": "^1.0.2"
+    "@js-fu/cli-pkg": "^1.0.3"
   }
 }

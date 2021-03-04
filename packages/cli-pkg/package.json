@@ -1,6 +1,6 @@
 {
   "name": "@js-fu/cli-pkg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "jiansheng.fu <jiansheng.fu@qiaofang.cn>",
   "homepage": "https://github.com/js-fu/lerna-test/tree/main/packages/cli-pkg#readme",
@@ -35,6 +35,5 @@
     "@babel/core": "^7.13.8",
     "@babel/plugin-transform-runtime": "^7.13.9",
     "@babel/preset-env": "^7.13.9"
-  },
-  "dependencies": {}
+  }
 }
