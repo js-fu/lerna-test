@@ -5,7 +5,6 @@
   "author": "jiansheng.fu <jiansheng.fu@qiaofang.cn>",
   "homepage": "https://github.com/js-fu/lerna-test/tree/main/packages/cli#readme",
   "license": "ISC",
-  "main": "lib/index.js",
   "bin": {
     "js-fu-cli": "./bin/cli"
   },
