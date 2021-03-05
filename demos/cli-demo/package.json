@@ -24,5 +24,7 @@
   "bugs": {
     "url": "https://github.com/js-fu/lerna-test/issues"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@js-fu/cli": "^1.0.1"
+  }
 }
