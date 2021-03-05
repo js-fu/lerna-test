@@ -5,7 +5,7 @@ export default async function main() {
   foo();
   const data = await new Promise((resolve) => {
     setTimeout(() => {
-      resolve({ a: 111 });
+      resolve({ a: 1111 });
     }, 1000);
   });
   console.log(data);
