@@ -1,11 +1,11 @@
-# `@js-fu/cli-pkg`
+# `@js-fu/cli`
 
 > TODO: description
 
 ## Usage
 
 ```
-const cliPkg = require('@js-fu/cli-pkg');
+const cli = require('@js-fu/cli');
 
 // TODO: DEMONSTRATE API
 ```

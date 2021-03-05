@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const cliPkgDemo = require('cli-pkg-demo');
+const cliDemo = require('cli-demo');
 
 // TODO: DEMONSTRATE API
 ```
