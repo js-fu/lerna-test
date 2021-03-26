@@ -6,7 +6,7 @@
   "homepage": "https://github.com/js-fu/lerna-test/tree/main/packages/cli#readme",
   "license": "ISC",
   "bin": {
-    "js-fu-cli": "./bin/cli"
+    "js-fu-cli": "./bin/cli.js"
   },
   "directories": {
     "lib": "lib",
