@@ -26,6 +26,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@js-fu/cli": "^1.0.9"
+    "@js-fu/cli": "^1.0.12"
   }
 }
