@@ -25,6 +25,6 @@
     "url": "https://github.com/js-fu/lerna-test/issues"
   },
   "dependencies": {
-    "@js-fu/cli": "^1.0.7"
+    "@js-fu/cli": "^1.0.8"
   }
 }
